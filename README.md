@@ -19,6 +19,7 @@
 
 This repository contains a complete testing framework for classical **Algorithms** implemented in JavaScript.  
 It demonstrates **unit testing**, **integration testing**, and **mutation testing** using **Jest** and **Stryker**.
+The **Images folder** contain test result images and **Report.pdf** has report and **Github link**
 
 The goal of this project is to help understand:
 - How algorithms behave individually (unit tests)
