@@ -95,7 +95,7 @@ npm run mutation
 ```
 # Result
 ## Mutation Score:83.19
-![Alt text](Screenshot%20from%202025-11-25%2000-41-14.png)
+![Alt text](Images/Screenshot%20from%202025-11-25%2000-41-14.png)
 
 
 
