@@ -79,7 +79,7 @@ The goal of this project is to help understand:
 ---
 
 # 🧪 Steps
-
+### Make sure correct dependencies are mentioned in json and configuration files of jest and stryker
 ## ✔️ Install Dependencies
 ```bash
 npm install
