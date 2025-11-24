@@ -93,7 +93,8 @@ npm test
 npm run mutation
 ```
 # Result
-![Alt text](Screenshot%20from%202025-11-24%2022-20-47.png)
+## Mutation Score:83.19
+![Alt text](Screenshot%20from%202025-11-25%2000-41-14.png)
 
 
 
