@@ -67,14 +67,14 @@ function rabinKarp(text, pattern, prime = 101) {
 
 function knuthMorrisPratt(text, pattern) {
   const result = [];
-  if (pattern.length === 0) return result;
-
+ 
+  const n=text.length;
   const m = pattern.length;
   if (m === 0) {
     for (let i = 0; i <= n; i++) result.push(i);
     return result;
   }
-  const n = text.length;
+
   const lps = Array(m).fill(0);
   let j = 0;
 
