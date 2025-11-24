@@ -1,3 +1,20 @@
+<p align="center">
+  <!-- Node Version -->
+  <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-green?style=for-the-badge" alt="Node Version">
+
+  <!-- Jest -->
+  <img src="https://img.shields.io/badge/tests-Jest-blue?style=for-the-badge" alt="Jest Tests">
+
+  <!-- Stryker Mutation Testing -->
+  <img src="https://img.shields.io/badge/mutation%20testing-Stryker-red?style=for-the-badge" alt="Stryker Mutation">
+
+  <!-- Build Passing -->
+  <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge" alt="Build Passing">
+
+  <!-- License -->
+  <img src="https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge" alt="MIT License">
+</p>
+
 # 📚 Algorithmic Testing (Mutation)
 
 This repository contains a complete testing framework for classical **Algorithms** implemented in JavaScript.  
@@ -76,23 +93,8 @@ npm test
 npm run mutation
 ```
 # Result
-![Alt text](result.png)
-<p align="center">
-  <!-- Node Version -->
-  <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-green?style=for-the-badge" alt="Node Version">
+![Alt text](Screenshot%20from%202025-11-24%2022-20-47.png)
 
-  <!-- Jest -->
-  <img src="https://img.shields.io/badge/tests-Jest-blue?style=for-the-badge" alt="Jest Tests">
-
-  <!-- Stryker Mutation Testing -->
-  <img src="https://img.shields.io/badge/mutation%20testing-Stryker-red?style=for-the-badge" alt="Stryker Mutation">
-
-  <!-- Build Passing -->
-  <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge" alt="Build Passing">
-
-  <!-- License -->
-  <img src="https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge" alt="MIT License">
-</p>
 
 
 
