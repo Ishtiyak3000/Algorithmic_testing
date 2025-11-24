@@ -2,6 +2,10 @@ function naiveStringMatching(text, pattern) {
   const result = [];
   const n = text.length;
   const m = pattern.length;
+  if (m === 0) {
+    for (let i = 0; i <= n; i++) result.push(i);
+    return result;
+  }
 
   for (let i = 0; i <= n - m; i++) {
     let j;
@@ -66,6 +70,10 @@ function knuthMorrisPratt(text, pattern) {
   if (pattern.length === 0) return result;
 
   const m = pattern.length;
+  if (m === 0) {
+    for (let i = 0; i <= n; i++) result.push(i);
+    return result;
+  }
   const n = text.length;
   const lps = Array(m).fill(0);
   let j = 0;
@@ -115,7 +123,10 @@ function boyerMoore(text, pattern) {
   const result = [];
   const n = text.length;
   const m = pattern.length;
-  if (m === 0) return result;
+  if (m === 0) {
+    for (let i = 0; i <= n; i++) result.push(i);
+    return result;
+  }
 
   const badChar = preprocessBadChar(pattern);
 
