@@ -18,6 +18,10 @@ function rabinKarp(text, pattern, prime = 101) {
   const result = [];
   const n = text.length;
   const m = pattern.length;
+   if (m === 0) {
+     for (let i = 0; i <= n; i++) result.push(i);
+     return result;
+   }
   if (m > n) return result;
 
   const base = 256;
