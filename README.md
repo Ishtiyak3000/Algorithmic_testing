@@ -38,19 +38,45 @@ The goal of this project is to help understand:
 - Breadth-First Search (BFS)
 - Depth-First Search (DFS)
 - Floyd–Warshall (with negative cycle detection)
+- kruskal
+- prim
+- floydwarshall
 
 ## 🔶 String Algorithms
 - Rabin–Karp
 - Knuth–Morris–Pratt (KMP)
 - Boyer–Moore
+- Naive
 
+## 🔶 Searching
+- Linear
+- Binary
+- Ternary
+
+## 🔷 Sorting
+- MergeSort
+- QuickSort
+- Selection
+- BubbleSort
+  
 ---
 
-# 🧪 Testing Overview
+# 🧪 Steps
 
-## ✔️ Unit Testing (Jest)
-Unit tests verify correctness of each algorithm independently.
-
+## ✔️ Install Dependencies
+```bash
+npm install
+```
+## ✔️ npm test(to run unit tests)
+```bash
+npm test
+```
+## ✔️ Run mutation
+```bash
+npm run mutation
+```
+# Result
+![Alt text](result.png)
 <p align="center">
   <!-- Node Version -->
   <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-green?style=for-the-badge" alt="Node Version">
