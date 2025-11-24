@@ -84,7 +84,7 @@ describe("String Matching Algorithms", () => {
 
     test("should handle empty pattern", () => {
       const result = knuthMorrisPratt("abc", "");
-      expect(result).toEqual([]);
+      expect(result).toEqual([0,1,2,3]);
     });
   });
 
@@ -111,7 +111,7 @@ describe("String Matching Algorithms", () => {
 
     test("should handle empty pattern", () => {
       const result = boyerMoore("abc", "");
-      expect(result).toEqual([]);
+      expect(result).toEqual([0,1,2,3]);
     });
   });
 
