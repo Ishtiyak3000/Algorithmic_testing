@@ -68,7 +68,6 @@ function dijkstra(graph, start) {
   return distances;
 }
 
-// Kruskal
 function kruskal(numNodes, edges) {
   if (edges.length === 0) return 0;
 
@@ -108,8 +107,6 @@ function kruskal(numNodes, edges) {
 
   return edgesCount === numNodes - 1 ? mstWeight : -1;
 }
-
-// Prim
 function prim(numNodes, edges) {
   if (edges.length === 0) return -1;
 
@@ -122,7 +119,7 @@ function prim(numNodes, edges) {
   }
 
   const inMST = Array(numNodes).fill(false);
-  const pq = [[0, 0]]; // [node, weight]
+  const pq = [[0, 0]];
   let mstWeight = 0;
 
   while (pq.length > 0) {
@@ -139,8 +136,6 @@ function prim(numNodes, edges) {
 
   return inMST.every(Boolean) ? mstWeight : -1;
 }
-
-// Floyd-Warshall
 function floydWarshall(graph) {
   const n = graph.length;
   const dist = Array.from({ length: n }, (_, i) =>
